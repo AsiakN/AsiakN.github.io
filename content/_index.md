@@ -98,29 +98,29 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://coursera.org/share/3d4aa3f08feafac9192aefa66532bc00
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2022-11-07'
           description: ''
           organization: Coursera
           organization_url: https://www.coursera.org
           title: Neural Networks and Deep Learning
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: https://coursera.org/share/1bd100f620e35029edc3601672059494
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+          date_start: '2021-05-01'
+          description: ''.
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: Machine Learning
+          url: ''
+        - certificate_url: https://digitalcredential.stanford.edu/check/5B6B4F867F8FD6C453A89336771FA50044FD913B2C93926021A9CBC8F27C3FFDZlRiczNUNlJPN296cThBc0xyaWxtR0gwOWYzd1BLOXJuYWVQNDNNeHVkejdQMkhI
+          date_end: '2023-04-24'
+          date_start: '2023-06-08'
           description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          organization: Stanford
+          organization_url: https://codeinplace.stanford.edu/
+          title: 'Code in Place'
           url: ''
     design:
       columns: '2'
