@@ -231,8 +231,8 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
-        Reach me.
+      # text: |-
+      #   Reach me.
       # Contact (add or remove contact options as necessary)
       email: asiaknathan@gmail.com
       phone: 888 888 88 88
