@@ -234,7 +234,7 @@ sections:
       text: |-
         Reach me.
       # Contact (add or remove contact options as necessary)
-      email: [last][nathan][at]gmail.com
+      email: asiaknathan@gmail.com
       phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:
