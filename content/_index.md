@@ -42,14 +42,14 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
-    content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '1'
+  # - block: skills
+  #   content:
+  #     title: Skills
+  #     text: ''
+  #     # Choose a user to display skills from (a folder name within `content/authors/`)
+  #     username: admin
+  #   design:
+  #     columns: '1'
   - block: experience
     content:
       title: Experience
@@ -172,20 +172,20 @@ sections:
           tag: Deep Learning
         - name: Other
           tag: Demo
-  #   design:
-  #     # Choose how many columns the section has. Valid values: '1' or '2'.
-  #     columns: '1'
-  #     view: showcase
-  #     # For Showcase view, flip alternate rows?
-  #     flip_alt_rows: false
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
+      view: showcase
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
   # - block: markdown
   #   content:
   #     title: Gallery
   #     subtitle: ''
   #     text: |-
   #       {{< gallery album="demo" >}}
-    design:
-      columns: '1'
+    # design:
+    #   columns: '1'
   - block: collection
     id: featured
     content:
@@ -208,9 +208,9 @@ sections:
         folders:
           - publication
         exclude_featured: true
-  #   design:
-  #     columns: '2'
-  #     view: citation
+    design:
+      columns: '2'
+      view: citation
   # - block: collection
   #   id: talks
   #   content:
@@ -224,8 +224,8 @@ sections:
   # - block: tag_cloud
   #   content:
   #     title: Popular Topics
-    design:
-      columns: '2'
+    # design:
+    #   columns: '2'
   - block: contact
     id: contact
     content:
