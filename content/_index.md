@@ -232,11 +232,11 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        'Hello there!'
+        ''.
       # Contact (add or remove contact options as necessary)
       email: [last][nathan][at]gmail.com
-      phone: 888 888 88 88
-      appointment_url: ''
+      # phone: 888 888 88 88
+      # appointment_url: ''
       address:
         street: Zebilla St
         city: Tema
@@ -262,7 +262,7 @@ sections:
       #     name: Zoom Me
       #     link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
-      # autolink: true
+      autolink: true
       # Email form provider
       # form:
       #   provider: netlify
