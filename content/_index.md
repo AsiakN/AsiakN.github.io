@@ -109,7 +109,7 @@ sections:
         - certificate_url: https://coursera.org/share/1bd100f620e35029edc3601672059494
           date_end: ''
           date_start: '2021-05-01'
-          description: ''.
+          description: ''
           organization: Coursera
           organization_url: https://www.coursera.org
           title: Machine Learning
