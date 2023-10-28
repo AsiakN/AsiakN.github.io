@@ -231,7 +231,8 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: 
+      text: |-
+        Reach me.
       # Contact (add or remove contact options as necessary)
       email: [last][nathan][at]gmail.com
       # phone: 888 888 88 88
@@ -261,7 +262,7 @@ sections:
       #     name: Zoom Me
       #     link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
-      # autolink: true
+      autolink: true
       # Email form provider
       # form:
       #   provider: netlify
