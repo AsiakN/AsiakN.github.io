@@ -1,14 +1,14 @@
 ---
-title: External Project
-summary: An example of linking directly to an external project website using `external_link`.
+title: Heart Sound Classifier
+summary: Memory efficient ML-based auscultation sound classifier for medicial diagnoses
 tags:
-  - Demo
-date: "2016-04-27T00:00:00Z"
+  - ML Efficiency
+date: "2023-05-25"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://example.org
+external_link: https://github.com/AsiakN/heart-sound-classification
 
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: Photo by Nathaniel Asiak
   focal_point: Smart
 ---
