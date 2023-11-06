@@ -33,7 +33,7 @@ featured: True
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ""
+url_pdf: ''
 url_code: 'https://github.com/AsiakN/heart-sound-classification'
 url_dataset: 'https://physionet.org/content/challenge-2016/1.0.0/#files'
 url_poster: 'https://drive.google.com/file/d/1Xmk36UIvEOD9iSSxSoQlu2wiyiMTUs1x/view?usp=sharing'
