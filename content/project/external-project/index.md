@@ -11,4 +11,5 @@ external_link: https://github.com/AsiakN/heart-sound-classification
 image:
   caption: Photo by Nathaniel Asiak
   focal_point: Smart
+  ima
 ---
