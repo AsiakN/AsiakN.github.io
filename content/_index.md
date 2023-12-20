@@ -192,7 +192,7 @@ sections:
   #     title: Popular Topics
     # design:
     #   columns: '2'
-   - block: accomplishments
+  - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Accomplish&shy;ments'
@@ -231,7 +231,6 @@ sections:
           url: ''
     design:
       columns: '2'
-    
   - block: contact
     id: contact
     content:
