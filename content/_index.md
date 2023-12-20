@@ -85,45 +85,8 @@ sections:
   #         description: Taught electronic engineering and researched semiconductor physics.
   #   design:
   #     columns: '2'
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://coursera.org/share/3d4aa3f08feafac9192aefa66532bc00
-          date_end: ''
-          date_start: '2022-11-07'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://coursera.org/share/1bd100f620e35029edc3601672059494
-          date_end: ''
-          date_start: '2021-05-01'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Machine Learning
-          url: ''
-        - certificate_url: https://digitalcredential.stanford.edu/check/5B6B4F867F8FD6C453A89336771FA50044FD913B2C93926021A9CBC8F27C3FFDZlRiczNUNlJPN296cThBc0xyaWxtR0gwOWYzd1BLOXJuYWVQNDNNeHVkejdQMkhI
-          date_end: '2023-04-24'
-          date_start: '2023-06-08'
-          description: ''
-          organization: Stanford University
-          organization_url: https://codeinplace.stanford.edu/
-          title: 'Code in Place'
-          url: ''
-    design:
-      columns: '2'
+ 
+
   # - block: collection
   #   id: posts
   #   content:
@@ -229,6 +192,46 @@ sections:
   #     title: Popular Topics
     # design:
     #   columns: '2'
+   - block: accomplishments
+    content:
+      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      title: 'Accomplish&shy;ments'
+      subtitle:
+      # Date format: https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `item` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - certificate_url: https://coursera.org/share/3d4aa3f08feafac9192aefa66532bc00
+          date_end: ''
+          date_start: '2022-11-07'
+          description: ''
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: Neural Networks and Deep Learning
+          url: ''
+        - certificate_url: https://coursera.org/share/1bd100f620e35029edc3601672059494
+          date_end: ''
+          date_start: '2021-05-01'
+          description: ''
+          organization: Coursera
+          organization_url: https://www.coursera.org
+          title: Machine Learning
+          url: ''
+        - certificate_url: https://digitalcredential.stanford.edu/check/5B6B4F867F8FD6C453A89336771FA50044FD913B2C93926021A9CBC8F27C3FFDZlRiczNUNlJPN296cThBc0xyaWxtR0gwOWYzd1BLOXJuYWVQNDNNeHVkejdQMkhI
+          date_end: '2023-04-24'
+          date_start: '2023-06-08'
+          description: ''
+          organization: Stanford University
+          organization_url: https://codeinplace.stanford.edu/
+          title: 'Code in Place'
+          url: ''
+    design:
+      columns: '2'
+    
   - block: contact
     id: contact
     content:
