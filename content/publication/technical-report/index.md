@@ -31,7 +31,7 @@ publication_types: ['report-technical']
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: 'Modelling, and Simulation of a 5-DOF using inverse kinematics'
 
 tags: []
 
