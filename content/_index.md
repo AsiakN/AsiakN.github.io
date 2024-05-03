@@ -90,7 +90,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Recent Posts
+      title: Posts
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)

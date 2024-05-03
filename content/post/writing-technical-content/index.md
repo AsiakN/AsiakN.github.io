@@ -6,8 +6,6 @@ image:
   placement: 2
   # caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
 ---
-
-
 Webhooks are a potential security loophole for many organizations. **Why?** Because of how they work. A webhook is pretty much a POST request from an unknown source.
 
 The problems with webhook would be reduced very much if we knew the source of the POST requests and we trusted that those organizations would not be malicious. But hey, don't outsource your security and hope for the best. It's the hope that kills!
