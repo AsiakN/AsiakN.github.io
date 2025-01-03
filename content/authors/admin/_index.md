@@ -29,9 +29,9 @@ bio: My research interests include NLP, ML Efficiency.
 
 # Interests to show in About widget
 interests:
+  - Robot Motion and Planning 
+  - Multi-agent systems
   - ML efficiency
-  - Natural Language Processing
-  - Conversational AI
   - High Performance Computing
 
 # Education to show in About widget
@@ -122,5 +122,5 @@ social:
 highlight_name: true
 ---
 
-Nathaniel is a software engineer based in Accra, Ghana. His research interests include Natural Language Processing, Machine Learning Efficiency, and Robotics.
+Nathaniel is a software engineer based in Accra, Ghana. His research interests include Machine Learning Efficiency, and Robotics.
 {style="text-align: justify;"}
