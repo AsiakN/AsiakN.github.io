@@ -1,14 +1,3 @@
-  - block: collection
-    id: featured
-    content:
-      title: Research
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
 ---
 # Leave the homepage title empty to use the site title
 title: ''
@@ -109,4 +98,16 @@ sections:
     design:
       view: compact
       columns: '1'
+
+  - block: collection
+    id: featured
+    content:
+      title: Research
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
 ---
