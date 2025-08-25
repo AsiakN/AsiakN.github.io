@@ -21,11 +21,11 @@ role: Software Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Academic City University
-    url: https://acity.edu.gh/
+  # - name: Academic City University
+    # url: https://acity.edu.gh/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include NLP, ML Efficiency.
+bio: My research interests include Robotics, ML Efficiency, and Hardware.
 
 # Interests to show in About widget
 interests:
@@ -35,11 +35,11 @@ interests:
   - High Performance Computing
 
 # Education to show in About widget
-education:
-  courses:
-    - course: BSc in Electrical Engineering
-      institution: Academic City 
-      year: 2022
+# education:
+  # courses:
+    # - course: BSc in Electrical Engineering
+      # institution: Academic City 
+      # year: 2022
     # - course: MEng in Artificial Intelligence
     #   institution: Massachusetts Institute of Technology
     #   year: 2009
@@ -122,5 +122,5 @@ social:
 highlight_name: true
 ---
 
-Nathaniel is a software engineer based in Accra, Ghana. His research interests include Machine Learning Efficiency, and Robotics.
+Welcome! I’m Nathaniel, and this blog is my corner of the internet where I think out loud. I design robots, write code, and explore how AI can solve real-world problems. This blog is where I document experiments, ideas, and the occasional failure that taught me something useful. I hope you find something relatable!
 {style="text-align: justify;"}
