@@ -122,5 +122,5 @@ social:
 highlight_name: true
 ---
 
-Welcome! I’m Nathaniel, and this blog is my corner of the internet where I think out loud. I design robots, write code, and explore how AI can solve real-world problems. This blog is where I document experiments, ideas, and the occasional failure that taught me something useful. I hope you find something relatable!
+Welcome! I’m Nathaniel, and this blog is my corner of the internet where I think out loud. I design robots, write code, and explore how AI can solve real-world problems. I document experiments, ideas, and the occasional failure that taught me something useful. I hope you find something relatable!
 {style="text-align: justify;"}
