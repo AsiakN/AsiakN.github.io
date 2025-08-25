@@ -39,7 +39,6 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
       username: admin
   # - block: skills
   #   content:
@@ -89,7 +88,6 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Blog
       count: 0
       filters:
         folders:
