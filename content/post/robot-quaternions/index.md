@@ -19,12 +19,50 @@ Let’s walk through each of these, and see why quaternions often end up as the 
 ### 1. Euler Angles  
 Euler angles describe orientation using a sequence of three rotations (e.g., roll, pitch, and yaw). According to Euler’s rotation theorem, any 3D rotation can be expressed this way.  
 
-Euler angles are intuitive; “rotate 45° around X” is easy to visualize. However, Euler angles suffer from a critical problem: **gimbal lock** (more on this below).  
+\[
+R = R_z(\psi) R_y(\theta) R_x(\phi)
+\]
+
+where:  
+- \(\phi\) = roll (rotation about x-axis)  
+- \(\theta\) = pitch (rotation about y-axis)  
+- \(\psi\) = yaw (rotation about z-axis)  
+
+Each basic rotation matrix looks like:  
+
+\[
+R_x(\phi) = 
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & \cos \phi & -\sin \phi \\
+0 & \sin \phi & \cos \phi
+\end{bmatrix}
+\]
+
+\[
+R_y(\theta) = 
+\begin{bmatrix}
+\cos \theta & 0 & \sin \theta \\
+0 & 1 & 0 \\
+-\sin \theta & 0 & \cos \theta
+\end{bmatrix}
+\]
+
+\[
+R_z(\psi) = 
+\begin{bmatrix}
+\cos \psi & -\sin \psi & 0 \\
+\sin \psi & \cos \psi & 0 \\
+0 & 0 & 1
+\end{bmatrix}
+\]
+
+Euler angles are intuitive; “rotate 45° around X” is easy to visualize. However, Euler angles suffer from a critical problem: **gimbal lock**.  
 
 ### 2. Rotation Matrices  
 Rotation matrices use linear algebra to represent orientation. Matrices easy to apply if you’re comfortable with matrix math: just multiply matrices to combine rotations.  
 
-However rotation matrices are **redundant**. A rotation matrix in n-D is an nxn matrix. So for 3D orientation, is a 3x3 matrix which means it uses **nine numbers** to represent just **three degrees of freedom**. A single matrix element is a floating-point nunber, and so needs 36 bytes to store orientation alone, that’s memory-heavy. Rotation matrices are also computationally expensive as it requires multiple matrix multiplications are to combine rotations.  For a 3D orientation, 27 matrix multiplications are required. On an SBC or small boards, this is untenable.
+However rotation matrices are **redundant**. A rotation matrix in n-D is an nxn matrix. So for 3D orientation, is a 3x3 matrix which means it uses **nine numbers** to represent just **three degrees of freedom**. A single matrix element is a floating-point nunber, and so needs 36 bytes to store orientation alone, that’s memory-heavy. Rotation matrices are also computationally expensive as it requires multiple matrix multiplications are to combine rotations.  For a 3D orientation, 27 matrix multiplications are required. On a SBC or compute-constrained computers, this is untenable.
 
 
 ### 3. Quaternions  
