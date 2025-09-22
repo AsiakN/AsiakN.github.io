@@ -19,44 +19,6 @@ Let’s walk through each of these, and see why quaternions often end up as the 
 ### 1. Euler Angles  
 Euler angles describe orientation using a sequence of three rotations (e.g., roll, pitch, and yaw). According to Euler’s rotation theorem, any 3D rotation can be expressed this way.  
 
-\[
-R = R_z(\psi) R_y(\theta) R_x(\phi)
-\]
-
-where:  
-- \(\phi\) = roll (rotation about x-axis)  
-- \(\theta\) = pitch (rotation about y-axis)  
-- \(\psi\) = yaw (rotation about z-axis)  
-
-Each basic rotation matrix looks like:  
-
-\[
-R_x(\phi) = 
-\begin{bmatrix}
-1 & 0 & 0 \\
-0 & \cos \phi & -\sin \phi \\
-0 & \sin \phi & \cos \phi
-\end{bmatrix}
-\]
-
-\[
-R_y(\theta) = 
-\begin{bmatrix}
-\cos \theta & 0 & \sin \theta \\
-0 & 1 & 0 \\
--\sin \theta & 0 & \cos \theta
-\end{bmatrix}
-\]
-
-\[
-R_z(\psi) = 
-\begin{bmatrix}
-\cos \psi & -\sin \psi & 0 \\
-\sin \psi & \cos \psi & 0 \\
-0 & 0 & 1
-\end{bmatrix}
-\]
-
 Euler angles are intuitive; “rotate 45° around X” is easy to visualize. However, Euler angles suffer from a critical problem: **gimbal lock**.  
 
 ### 2. Rotation Matrices  
