@@ -57,7 +57,7 @@ a_corrected = a_measured - α × r - ω × (ω × r)
 
 This needs an accurate lever arm vector **r** (measure it during assembly), good gyroscope data, and a way to get α — either by differentiating ω numerically or estimating it in your filter.
 
-The cleaner approach is to fold the lever arm into your state estimator. An EKF or UKF can include **r** as a known parameter in the measurement model, so the filter accounts for rotational coupling when fusing IMU data with other sensors. In ROS 2, [robot_localization](http://docs.ros.org/en/rolling/p/robot_localization/) does exactly this — its EKF and UKF nodes accept sensor offsets directly.
+The cleaner approach is to fold the lever arm into your state estimator. An EKF or UKF can include **r** as a known parameter in the measurement model, so the filter accounts for rotational coupling when fusing IMU data with other sensors. In ROS 2, [robot_localization](https://docs.ros.org/en/melodic/api/robot_localization/html/index.html/) does exactly this. Its EKF and UKF nodes accept sensor offsets directly.
 
 Don't forget the GNSS antenna. It's almost never co-located with the IMU, and if you don't account for that lever arm in your fusion algorithm, position solutions will oscillate during turns.
 
@@ -68,3 +68,5 @@ Don't forget the GNSS antenna. It's almost never co-located with the IMU, and if
 - Angular acceleration — tangential error scales linearly
 - Gyro quality — noisy gyros make compensation noisy
 - Integration time — uncompensated position error grows cubically
+
+If your nav filter is drifting and you've already tuned your noise parameters to death, measure the distance between your IMU and your CoM. That might be your whole problem.
