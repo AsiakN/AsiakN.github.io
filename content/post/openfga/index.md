@@ -1,4 +1,8 @@
-# Why Zanzibar Matters
+---
+title: Why Zanzibar matters
+date: 2026-03-10
+math: false
+---
 
 Any authorization system worth considering needs to deliver on three fronts:
 
@@ -8,7 +12,7 @@ Any authorization system worth considering needs to deliver on three fronts:
 
 RBAC scores reasonably well on correctness and scale but struggles with flexibility. The moment you need genuine per-resource permissions (think "Alice can edit *this* document but only view *that* one"), you start drowning in role explosion.
 
-Zanzibar's relationship-based model addresses all three fronts, and the way it handles each is worth unpacking.
+**Zanzibar's** relationship-based model addresses all three fronts, and the way it handles each is worth unpacking.
 
 ## The Zanzibar Model
 
