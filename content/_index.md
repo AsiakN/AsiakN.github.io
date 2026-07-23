@@ -86,15 +86,31 @@ sections:
  
 
   - block: collection
-    id: posts
+    id: research
     content:
+      title: Research
       count: 0
       filters:
         folders:
-          - post
+          - publication/current-research
+          - publication/underwater-autonomy
       order: desc
     design:
-      view: compact
-      columns: '1'
+      view: card
+      columns: '2'
+
+  - block: collection
+    id: earlier-work
+    content:
+      title: Earlier Work
+      count: 0
+      filters:
+        folders:
+          - publication/technical-report
+          - publication/thesis
+      order: desc
+    design:
+      view: card
+      columns: '2'
 
 ---

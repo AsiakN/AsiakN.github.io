@@ -38,7 +38,8 @@ featured: false
 url_pdf: ''
 
 image:
-  focal_point: ""
+  caption: 'Dense detection, sparse events, and the long reasoning horizon above them'
+  focal_point: "Center"
   preview_only: false
 
 projects: []

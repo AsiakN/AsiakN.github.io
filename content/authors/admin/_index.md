@@ -30,12 +30,12 @@ organizations:
 bio: I work on machine learning methods for understanding complex visual and multimodal data, with an emphasis on embodied AI and long-horizon tasks.
 
 # Interests to show in About widget
-interests:
-  - Computer vision
-  - Multimodal representation learning
-  - Embodied AI
-  - Long-horizon tasks in complex environments
-  - Robot learning
+# interests:
+  # - Computer vision
+  # - Multimodal representation learning
+  # - Embodied AI
+  # - Long-horizon tasks in complex environments
+  # - Robot learning
 
 # Education to show in About widget
 # education:
