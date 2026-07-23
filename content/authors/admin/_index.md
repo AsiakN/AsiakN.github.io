@@ -17,23 +17,25 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Software Engineer
+role: 
 
 # Organizations/Affiliations to show in About widget
 organizations:
+  - name: Stanford University
+    url: https://icme.stanford.edu/
   # - name: Academic City University
     # url: https://acity.edu.gh/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I work on embodied agents — perception, state estimation, and control for robots and sensing systems that run under real compute budgets.
+bio: I work on machine learning methods for understanding complex visual and multimodal data, with an emphasis on embodied AI and long-horizon tasks.
 
 # Interests to show in About widget
 interests:
-  - Embodied agents
+  - Computer vision
+  - Multimodal representation learning
+  - Embodied AI
+  - Long-horizon tasks in complex environments
   - Robot learning
-  - Long-horizon task execution
-  - State estimation and control
-  - Perception under compute constraints
 
 # Education to show in About widget
 # education:
@@ -123,9 +125,10 @@ social:
 highlight_name: true
 ---
 
-Welcome! I’m Nathaniel. I build systems that perceive and act in the physical world, and this blog is where I think out loud about them.
+**Welcome!**
 
-Most of my work sits on embodied systems that have to survive contact with reality: an underwater vehicle navigating without any global position fix, and camera systems that turn continuous video into events an operator can act on. Both run on hardware with a hard compute budget, which is the constraint I find most interesting — what an agent is allowed to know, and how gracefully it should degrade when that budget cannot supply what the task assumes.
+I’m an incoming MS student in Computational and Mathematical Engineering (ICME) at Stanford University.
+My research interests include computer vision, multimodal representation learning, embodied AI, and robot learning for long-horizon tasks.
 
-I write about the parts that are usually left out of papers: coordinate frames, sensor geometry, drift, and the failures that taught me something useful. You can read more on my [research](/publication/) page.
+My background is in computer vision and embodied AI, including building video intelligence systems and deploying deep learning models on resource-constrained edge devices. I have also worked on autonomy for underwater robots.
 {style="text-align: justify;"}
