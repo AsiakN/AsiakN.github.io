@@ -32,7 +32,7 @@ tags:
   - State Estimation
   - Control Allocation
   - Robot Learning
-featured: false
+featured: true
 
 url_code: 'https://github.com/AsiakN/actuator_viz'
 url_pdf: ''

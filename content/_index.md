@@ -92,8 +92,8 @@ sections:
       count: 0
       filters:
         folders:
-          - publication/current-research
-          - publication/underwater-autonomy
+          - publication
+        featured_only: true
       order: desc
     design:
       view: card
@@ -106,8 +106,8 @@ sections:
       count: 0
       filters:
         folders:
-          - publication/technical-report
-          - publication/thesis
+          - publication
+        exclude_featured: true
       order: desc
     design:
       view: card

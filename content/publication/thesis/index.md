@@ -28,7 +28,7 @@ summary: Memory efficient Adaboost to classify heart sound recordings.
 
 tags:
 # - Source Themes
-featured: True
+featured: false
 
 # links:
 # - name: ""

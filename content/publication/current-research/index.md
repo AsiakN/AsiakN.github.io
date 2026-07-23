@@ -31,7 +31,7 @@ tags:
   - Grounded Perception
   - Robot Learning
   - Edge Computing
-featured: false
+featured: true
 
 # No `url_code` on purpose — the implementation is proprietary, and Wowchemy
 # only renders a button for keys that have a value.
