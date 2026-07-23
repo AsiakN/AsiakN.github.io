@@ -25,14 +25,15 @@ organizations:
     # url: https://acity.edu.gh/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Robotics, ML Efficiency, and Hardware.
+bio: I work on embodied agents — perception, state estimation, and control for robots and sensing systems that run under real compute budgets.
 
 # Interests to show in About widget
 interests:
-  - Robot Motion and Planning 
-  - Multi-agent systems
-  - ML efficiency
-  - High Performance Computing
+  - Embodied agents
+  - Robot learning
+  - Long-horizon task execution
+  - State estimation and control
+  - Perception under compute constraints
 
 # Education to show in About widget
 # education:
@@ -122,5 +123,9 @@ social:
 highlight_name: true
 ---
 
-Welcome! I’m Nathaniel, and this blog is my corner of the internet where I think out loud. I design robots, write code, and explore how AI can solve real-world problems. I document experiments, ideas, and the occasional failure that taught me something useful. I hope you find something relatable!
+Welcome! I’m Nathaniel. I build systems that perceive and act in the physical world, and this blog is where I think out loud about them.
+
+Most of my work sits on embodied systems that have to survive contact with reality: an underwater vehicle navigating without any global position fix, and camera systems that turn continuous video into events an operator can act on. Both run on hardware with a hard compute budget, which is the constraint I find most interesting — what an agent is allowed to know, and how gracefully it should degrade when that budget cannot supply what the task assumes.
+
+I write about the parts that are usually left out of papers: coordinate frames, sensor geometry, drift, and the failures that taught me something useful. You can read more on my [research](/publication/) page.
 {style="text-align: justify;"}
