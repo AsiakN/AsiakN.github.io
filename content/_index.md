@@ -86,28 +86,13 @@ sections:
  
 
   - block: collection
-    id: research
+    id: projects
     content:
-      title: Research
+      title: Projects
       count: 0
       filters:
         folders:
           - publication
-        featured_only: true
-      order: desc
-    design:
-      view: card
-      columns: '2'
-
-  - block: collection
-    id: earlier-work
-    content:
-      title: Earlier Work
-      count: 0
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
       order: desc
     design:
       view: card
