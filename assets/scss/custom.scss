@@ -1,0 +1,84 @@
+/* A calm, high-contrast visual language layered on top of Wowchemy. */
+:root {
+  --site-ink: #0b1823;
+  --site-muted: #60707c;
+  --site-accent: #f15d43;
+  --site-teal: #30d5b3;
+  --site-paper: #f7f8f6;
+}
+
+body {
+  background: var(--site-paper);
+  color: var(--site-ink);
+}
+
+.navbar {
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  background: color-mix(in srgb, var(--site-paper) 88%, transparent) !important;
+  border-bottom: 1px solid rgba(11, 24, 35, .07);
+}
+
+.navbar .nav-link { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.navbar .navbar-brand { font-weight: 800; letter-spacing: -.04em; }
+
+.home-section:first-of-type {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.home-section:first-of-type::before,
+.home-section:first-of-type::after {
+  border-radius: 999px;
+  content: '';
+  filter: blur(2px);
+  opacity: .55;
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+}
+.home-section:first-of-type::before { background: #0f8179; height: 34rem; right: -14rem; top: -17rem; width: 34rem; }
+.home-section:first-of-type::after { background: #e87555; bottom: -20rem; height: 32rem; left: -16rem; width: 32rem; }
+
+.home-section:first-of-type .hero-title { font-size: clamp(3.2rem, 7vw, 6.8rem); font-weight: 750; letter-spacing: -.065em; line-height: .94; max-width: 13ch; }
+.hero-lead, .home-section:first-of-type .hero-lead { font-size: clamp(1.1rem, 1.8vw, 1.4rem); line-height: 1.6; max-width: 43rem; }
+.hero-kicker { color: var(--site-teal); display: block; font-size: .76rem; font-weight: 800; letter-spacing: .16em; margin-bottom: 1.5rem; }
+.hero-availability { align-items: center; display: inline-flex; font-size: .85rem; gap: .55rem; margin-top: 1rem; }
+.hero-availability span { background: var(--site-teal); border-radius: 50%; box-shadow: 0 0 0 5px rgba(48, 213, 179, .14); height: .55rem; width: .55rem; }
+
+.btn, .cta-btn { border-radius: 999px; font-weight: 750; letter-spacing: .01em; padding: .76rem 1.25rem; transition: transform .2s ease, box-shadow .2s ease; }
+.btn:hover, .cta-btn:hover { transform: translateY(-3px); }
+.btn-primary, .cta-btn-primary { background: var(--site-accent); border-color: var(--site-accent); box-shadow: 0 10px 30px rgba(241, 93, 67, .24); color: #fff; }
+
+.signal-grid { border-top: 1px solid rgba(255,255,255,.2); display: grid; grid-template-columns: repeat(3, 1fr); }
+.signal-grid div { border-right: 1px solid rgba(255,255,255,.2); padding: 1.25rem 1.5rem; }
+.signal-grid div:last-child { border-right: 0; }
+.signal-grid strong { color: var(--site-teal); display: block; font-size: .72rem; letter-spacing: .12em; margin-bottom: .35rem; }
+.signal-grid span { font-size: .92rem; font-weight: 650; }
+
+.home-section h1 { font-size: clamp(2.25rem, 4vw, 4rem); max-width: 17ch; }
+.home-section .section-heading p { color: var(--site-muted); font-size: 1.05rem; max-width: 46rem; }
+.card-simple, .card { background: #fff; border: 1px solid rgba(11, 24, 35, .08); border-radius: 1rem; box-shadow: none; overflow: hidden; transition: box-shadow .25s ease, transform .25s ease; }
+.card-simple:hover, .card:hover { box-shadow: 0 18px 40px rgba(11, 24, 35, .11); transform: translateY(-6px); }
+.card .card-image { aspect-ratio: 16 / 10; object-fit: cover; }
+.card .card-title { font-size: 1.2rem; letter-spacing: -.025em; }
+.article-metadata { color: var(--site-muted); font-size: .76rem; font-weight: 700; letter-spacing: .045em; text-transform: uppercase; }
+
+.contact-panel { align-items: end; display: flex; gap: 2rem; justify-content: space-between; }
+.contact-panel p { font-size: 1.25rem; line-height: 1.5; margin: 0; max-width: 39rem; }
+.contact-panel .cta-btn { flex: 0 0 auto; text-decoration: none; }
+.contact-panel .cta-btn span { font-size: 1.2em; margin-left: .35rem; }
+
+@media (max-width: 768px) {
+  .signal-grid { grid-template-columns: 1fr; }
+  .signal-grid div { border-bottom: 1px solid rgba(255,255,255,.2); border-right: 0; }
+  .signal-grid div:last-child { border-bottom: 0; }
+  .contact-panel { align-items: start; flex-direction: column; }
+  .home-section:first-of-type::before { right: -20rem; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .home-section:first-of-type::before { animation: drift 12s ease-in-out infinite alternate; }
+  @keyframes drift { to { transform: translate(-3rem, 3rem) scale(1.08); } }
+}

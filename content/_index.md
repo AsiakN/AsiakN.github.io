@@ -5,6 +5,44 @@ date: 2022-10-24
 type: landing
 
 sections:
+  - block: hero
+    id: top
+    content:
+      title: "Intelligent systems for the real world."
+      text: |-
+        <span class="hero-kicker">NATHANIEL ASIAK · STANFORD ICME</span>
+
+        I build perception, reasoning, and control systems that keep working when the environment is uncertain, the horizon is long, and the compute budget is real.
+      cta:
+        label: Explore research
+        url: '#research'
+      cta_alt:
+        label: Read the blog
+        url: '/post/'
+      cta_note:
+        label: '<span class="hero-availability"><span></span> Exploring research collaborations</span>'
+    design:
+      background:
+        gradient_start: '#07111f'
+        gradient_end: '#102c3c'
+        text_color_light: true
+      spacing:
+        padding: ['8rem', '0', '6rem', '0']
+  - block: markdown
+    content:
+      title: ''
+      text: |-
+        <div class="signal-grid" aria-label="Research areas">
+          <div><strong>01</strong><span>Grounded perception</span></div>
+          <div><strong>02</strong><span>Long-horizon autonomy</span></div>
+          <div><strong>03</strong><span>Embodied intelligence</span></div>
+        </div>
+    design:
+      background:
+        color: '#07111f'
+        text_color_light: true
+      spacing:
+        padding: ['0', '0', '2rem', '0']
   # - block: hero
   #   demo: true # Only display this section in the Wowchemy demo site
   #   content:
@@ -40,6 +78,9 @@ sections:
     id: about
     content:
       username: admin
+    design:
+      spacing:
+        padding: ['6rem', '0', '4rem', '0']
   # - block: skills
   #   content:
   #     title: Skills
@@ -86,10 +127,12 @@ sections:
  
 
   - block: collection
-    id: projects
+    id: research
     content:
-      title: Projects
-      count: 0
+      title: Selected research
+      subtitle: From fielded multi-camera systems to autonomous underwater vehicles.
+      text: 'Research is most interesting when it meets the physical world: incomplete observations, limited resources, and no reset button.'
+      count: 4
       filters:
         folders:
           - publication
@@ -97,5 +140,40 @@ sections:
     design:
       view: card
       columns: '2'
+      spacing:
+        padding: ['5rem', '0', '5rem', '0']
+
+  - block: collection
+    id: writing
+    content:
+      title: Notes from the field
+      subtitle: Robotics, systems, and ideas worth working through carefully.
+      count: 3
+      filters:
+        folders:
+          - post
+      order: desc
+    design:
+      view: compact
+      columns: '2'
+      spacing:
+        padding: ['5rem', '0', '5rem', '0']
+
+  - block: markdown
+    id: contact
+    content:
+      title: 'Let’s build something that lasts.'
+      text: |-
+        <div class="contact-panel">
+          <p>I’m interested in hard problems at the boundary of machine learning, robotics, and deployed systems.</p>
+          <a class="cta-btn cta-btn-primary" href="https://www.linkedin.com/in/nathanielasiak">Start a conversation <span aria-hidden="true">↗</span></a>
+        </div>
+    design:
+      background:
+        gradient_start: '#0c2330'
+        gradient_end: '#07111f'
+        text_color_light: true
+      spacing:
+        padding: ['6rem', '0', '6rem', '0']
 
 ---
