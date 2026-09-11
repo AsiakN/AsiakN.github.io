@@ -41,7 +41,9 @@ body {
 
 .home-section:first-of-type .hero-title { font-size: clamp(3.25rem, 7vw, 6.8rem); font-weight: 750; letter-spacing: -.07em; line-height: .91; max-width: 12ch; }
 .hero-lead, .home-section:first-of-type .hero-lead { font-size: clamp(1.1rem, 1.8vw, 1.4rem); line-height: 1.6; max-width: 43rem; }
-.hero-kicker { color: var(--site-teal); display: block; font-size: .71rem; font-weight: 800; letter-spacing: .18em; margin-bottom: 1.65rem; }
+.hero-social-links { display: flex; gap: .6rem; margin: 1.5rem 0 .2rem; }
+.hero-social-links a { align-items: center; border: 1px solid rgba(255,255,255,.36); border-radius: 50%; color: #fff; display: inline-flex; height: 2.5rem; justify-content: center; text-decoration: none; transition: background .2s ease, border-color .2s ease, transform .2s ease; width: 2.5rem; }
+.hero-social-links a:hover { background: var(--site-teal); border-color: var(--site-teal); color: #0a1714; transform: translateY(-3px); }
 .hero-media { filter: drop-shadow(0 1.5rem 2.4rem rgba(0,0,0,.22)); }
 .hero-media img { border: 1px solid rgba(134,229,170,.36); border-radius: 1.5rem; object-fit: cover; }
 .hero-availability { align-items: center; display: inline-flex; font-size: .85rem; gap: .55rem; margin-top: 1rem; }
@@ -73,6 +75,7 @@ body {
 .contact-panel .cta-btn span { font-size: 1.2em; margin-left: .35rem; }
 .cta-btn-secondary { border: 1px solid rgba(255,255,255,.5); color: #fff; }
 .cta-btn-secondary:hover { background: rgba(255,255,255,.1); color: #fff; }
+a[href="/natx/"]::after { content: '▍'; display: inline-block; font-size: .85em; margin-left: .32em; }
 
 @media (min-width: 992px) {
   #research, #writing { display: inline-block; vertical-align: top; width: calc(50% - .25rem); }
@@ -108,5 +111,7 @@ body {
 
 @media (prefers-reduced-motion: no-preference) {
   .home-section:first-of-type::after { animation: drift 12s ease-in-out infinite alternate; }
+  a[href="/natx/"]::after { animation: terminal-cursor .9s steps(2, start) infinite; }
   @keyframes drift { to { transform: translate(-2rem, 2rem) scale(1.06); } }
+  @keyframes terminal-cursor { 50% { opacity: 0; } }
 }

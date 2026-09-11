@@ -10,9 +10,12 @@ sections:
     content:
       title: "Nathaniel Asiak."
       text: |-
-        <span class="hero-kicker">RESEARCHER · ENGINEER · WRITER</span>
-
         I’m studying Computational and Mathematical Engineering at Stanford University. I work on machine learning systems for complex visual and multimodal data, with an emphasis on embodied AI and long-horizon tasks.
+
+        <nav class="hero-social-links" aria-label="Contact links">
+          <a href="https://www.linkedin.com/in/nathanielasiak" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+          <a href="#contact" aria-label="Contact by email" title="Contact by email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+        </nav>
       image:
         filename: icon.png
       cta:
