@@ -57,6 +57,10 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  goldmark:
+    renderer:
+      # Homepage research-map and signal-strip content use trusted semantic HTML.
+      unsafe: true
 related:
   threshold: 80
   includeNewer: true

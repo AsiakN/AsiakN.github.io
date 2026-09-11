@@ -10,39 +10,40 @@ sections:
     content:
       title: "Intelligent systems for the real world."
       text: |-
-        <span class="hero-kicker">NATHANIEL ASIAK · STANFORD ICME</span>
+        <span class="hero-kicker">RESEARCHER · ENGINEER · WRITER</span>
 
-        I build perception, reasoning, and control systems that keep working when the environment is uncertain, the horizon is long, and the compute budget is real.
+        I study how intelligent systems can perceive, reason, and act reliably when the environment is uncertain, the horizon is long, and the compute budget is real.
       cta:
-        label: Explore research
+        label: View research
         url: '#research'
       cta_alt:
-        label: Read the blog
-        url: '/post/'
+        label: Enter NatX
+        url: '/natx/'
       cta_note:
-        label: '<span class="hero-availability"><span></span> Exploring research collaborations</span>'
+        label: '<span class="hero-availability"><span></span> Incoming MS student, Stanford ICME</span>'
     design:
       background:
-        gradient_start: '#07111f'
-        gradient_end: '#102c3c'
+        gradient_start: '#0a1714'
+        gradient_end: '#10251f'
         text_color_light: true
       spacing:
-        padding: ['8rem', '0', '6rem', '0']
+        padding: ['9rem', '0', '7rem', '0']
   - block: markdown
     content:
       title: ''
       text: |-
-        <div class="signal-grid" aria-label="Research areas">
-          <div><strong>01</strong><span>Grounded perception</span></div>
-          <div><strong>02</strong><span>Long-horizon autonomy</span></div>
-          <div><strong>03</strong><span>Embodied intelligence</span></div>
+        <div class="signal-grid" aria-label="Profile summary">
+          <div><strong>BASED AT</strong><span>Stanford ICME</span></div>
+          <div><strong>FOCUS</strong><span>Embodied AI</span></div>
+          <div><strong>METHODS</strong><span>Vision · Learning · Control</span></div>
+          <div><strong>MODE</strong><span>Research &amp; systems</span></div>
         </div>
     design:
       background:
         color: '#07111f'
         text_color_light: true
       spacing:
-        padding: ['0', '0', '2rem', '0']
+        padding: ['0', '0', '2.5rem', '0']
   # - block: hero
   #   demo: true # Only display this section in the Wowchemy demo site
   #   content:
@@ -80,7 +81,7 @@ sections:
       username: admin
     design:
       spacing:
-        padding: ['6rem', '0', '4rem', '0']
+        padding: ['6rem', '0', '5rem', '0']
   # - block: skills
   #   content:
   #     title: Skills
@@ -130,9 +131,9 @@ sections:
     id: research
     content:
       title: Selected research
-      subtitle: From fielded multi-camera systems to autonomous underwater vehicles.
-      text: 'Research is most interesting when it meets the physical world: incomplete observations, limited resources, and no reset button.'
-      count: 4
+      subtitle: Two fielded systems, each with a different definition of uncertainty.
+      text: 'The work starts where clean benchmarks end: partial observations, finite compute, uncertain state, and decisions that need to hold up outside the lab.'
+      count: 2
       filters:
         folders:
           - publication
@@ -141,13 +142,41 @@ sections:
       view: card
       columns: '2'
       spacing:
+        padding: ['6rem', '0', '4rem', '0']
+
+  - block: markdown
+    id: approach
+    content:
+      title: 'A systems view of intelligence.'
+      text: |-
+        <div class="research-map">
+          <article>
+            <span>01 / PERCEIVE</span>
+            <h3>Grounded perception</h3>
+            <p>Turning continuous visual streams into events a system can represent and reason about.</p>
+          </article>
+          <article>
+            <span>02 / REASON</span>
+            <h3>Long-horizon decisions</h3>
+            <p>Allocating finite attention, compute, and confidence over tasks that unfold over hours—not frames.</p>
+          </article>
+          <article>
+            <span>03 / ACT</span>
+            <h3>Embodied autonomy</h3>
+            <p>Understanding how sensing, morphology, estimation, and control set the limits of what an agent can do.</p>
+          </article>
+        </div>
+    design:
+      background:
+        color: '#e9eee8'
+      spacing:
         padding: ['5rem', '0', '5rem', '0']
 
   - block: collection
     id: writing
     content:
       title: Notes from the field
-      subtitle: Robotics, systems, and ideas worth working through carefully.
+      subtitle: Clear explanations of robotics, systems, and ideas worth working through carefully.
       count: 3
       filters:
         folders:
@@ -157,16 +186,16 @@ sections:
       view: compact
       columns: '2'
       spacing:
-        padding: ['5rem', '0', '5rem', '0']
+        padding: ['6rem', '0', '6rem', '0']
 
   - block: markdown
     id: contact
     content:
-      title: 'Let’s build something that lasts.'
+      title: 'Start a conversation.'
       text: |-
         <div class="contact-panel">
-          <p>I’m interested in hard problems at the boundary of machine learning, robotics, and deployed systems.</p>
-          <a class="cta-btn cta-btn-primary" href="https://www.linkedin.com/in/nathanielasiak">Start a conversation <span aria-hidden="true">↗</span></a>
+          <p>I’m interested in hard problems at the boundary of machine learning, robotics, and deployed systems. For the less conventional route, try NatX.</p>
+          <div class="contact-actions"><a class="cta-btn cta-btn-primary" href="https://www.linkedin.com/in/nathanielasiak">LinkedIn <span aria-hidden="true">↗</span></a><a class="cta-btn cta-btn-secondary" href="/natx/">Enter NatX <span aria-hidden="true">→</span></a></div>
         </div>
     design:
       background:
