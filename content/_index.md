@@ -12,7 +12,9 @@ sections:
       text: |-
         <span class="hero-kicker">RESEARCHER · ENGINEER · WRITER</span>
 
-        I’m an incoming MS student in Computational and Mathematical Engineering at Stanford. I work on machine learning systems for complex visual and multimodal data, with an emphasis on embodied AI and long-horizon tasks.
+        I’m studying Computational and Mathematical Engineering at Stanford University. I work on machine learning systems for complex visual and multimodal data, with an emphasis on embodied AI and long-horizon tasks.
+      image:
+        filename: icon.png
       cta:
         label: View research
         url: '#research'
@@ -33,10 +35,10 @@ sections:
       title: ''
       text: |-
         <div class="signal-grid" aria-label="Profile summary">
-          <div><strong>BASED AT</strong><span>Stanford ICME</span></div>
-          <div><strong>FOCUS</strong><span>Embodied AI</span></div>
-          <div><strong>METHODS</strong><span>Vision · Learning · Control</span></div>
-          <div><strong>MODE</strong><span>Research &amp; systems</span></div>
+          <div><i class="fas fa-graduation-cap" aria-hidden="true"></i><strong>STANFORD</strong><span>Computational math</span></div>
+          <div><i class="fas fa-robot" aria-hidden="true"></i><strong>FOCUS</strong><span>Embodied AI</span></div>
+          <div><i class="fas fa-eye" aria-hidden="true"></i><strong>METHODS</strong><span>Vision · learning · control</span></div>
+          <div><i class="fas fa-microchip" aria-hidden="true"></i><strong>WORK</strong><span>Research &amp; systems</span></div>
         </div>
     design:
       background:
@@ -132,8 +134,8 @@ sections:
           - publication
       order: desc
     design:
-      view: card
-      columns: '3'
+      view: compact
+      columns: '2'
       spacing:
         padding: ['6rem', '0', '4rem', '0']
 

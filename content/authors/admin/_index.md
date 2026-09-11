@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: 
+role: Student, Computational and Mathematical Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -27,7 +27,7 @@ organizations:
     # url: https://acity.edu.gh/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I work on machine learning methods for understanding complex visual and multimodal data, with an emphasis on embodied AI and long-horizon tasks.
+bio: I study Computational and Mathematical Engineering at Stanford University and work on machine learning methods for understanding complex visual and multimodal data, with an emphasis on embodied AI and long-horizon tasks.
 
 # Interests to show in About widget
 # interests:
@@ -127,7 +127,7 @@ highlight_name: true
 
 **Welcome!**
 
-I’m an incoming MS student in Computational and Mathematical Engineering (ICME) at Stanford University.
+I’m studying Computational and Mathematical Engineering (ICME) at Stanford University.
 My research interests include computer vision, multimodal representation learning, embodied AI, and robot learning for long-horizon tasks.
 
 My background is in computer vision and embodied AI, including building video intelligence systems and deploying deep learning models on resource-constrained edge devices. I have also worked on autonomy for underwater robots.
