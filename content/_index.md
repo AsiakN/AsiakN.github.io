@@ -135,37 +135,9 @@ sections:
       order: desc
     design:
       view: compact
-      columns: '2'
+      columns: '1'
       spacing:
-        padding: ['6rem', '0', '4rem', '0']
-
-  - block: markdown
-    id: approach
-    content:
-      title: 'A systems view of intelligence.'
-      text: |-
-        <div class="research-map">
-          <article>
-            <span>01 / PERCEIVE</span>
-            <h3>Grounded perception</h3>
-            <p>Turning continuous visual streams into events a system can represent and reason about.</p>
-          </article>
-          <article>
-            <span>02 / REASON</span>
-            <h3>Long-horizon decisions</h3>
-            <p>Allocating finite attention, compute, and confidence over tasks that unfold over hours—not frames.</p>
-          </article>
-          <article>
-            <span>03 / ACT</span>
-            <h3>Embodied autonomy</h3>
-            <p>Understanding how sensing, morphology, estimation, and control set the limits of what an agent can do.</p>
-          </article>
-        </div>
-    design:
-      background:
-        color: '#e9eee8'
-      spacing:
-        padding: ['5rem', '0', '5rem', '0']
+        padding: ['6rem', '0', '6rem', '0']
 
   - block: collection
     id: writing
@@ -179,7 +151,7 @@ sections:
       order: desc
     design:
       view: compact
-      columns: '2'
+      columns: '1'
       spacing:
         padding: ['6rem', '0', '6rem', '0']
 

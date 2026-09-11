@@ -66,13 +66,6 @@ body {
 .card .card-title { font-size: 1.2rem; letter-spacing: -.025em; }
 .article-metadata { color: var(--site-muted); font-size: .76rem; font-weight: 700; letter-spacing: .045em; text-transform: uppercase; }
 
-.research-map { display: grid; grid-template-columns: repeat(3, 1fr); }
-.research-map article { border-left: 1px solid rgba(19,33,28,.19); padding: .5rem 2rem 1rem; }
-.research-map article:first-child { border-left: 0; padding-left: 0; }
-.research-map span { color: var(--site-accent); font-size: .67rem; font-weight: 800; letter-spacing: .13em; }
-.research-map h3 { font-size: 1.45rem; letter-spacing: -.04em; margin: 1.25rem 0 .7rem; }
-.research-map p { color: var(--site-muted); line-height: 1.6; margin: 0; }
-
 .contact-panel { align-items: end; display: flex; gap: 2rem; justify-content: space-between; }
 .contact-panel p { font-size: 1.25rem; line-height: 1.5; margin: 0; max-width: 39rem; }
 .contact-actions { display: flex; flex: 0 0 auto; flex-wrap: wrap; gap: .75rem; }
@@ -81,14 +74,18 @@ body {
 .cta-btn-secondary { border: 1px solid rgba(255,255,255,.5); color: #fff; }
 .cta-btn-secondary:hover { background: rgba(255,255,255,.1); color: #fff; }
 
+@media (min-width: 992px) {
+  #research, #writing { display: inline-block; vertical-align: top; width: calc(50% - .25rem); }
+  #research .container, #writing .container { max-width: 100%; }
+  #research { padding-right: clamp(1rem, 3vw, 3rem); }
+  #writing { padding-left: clamp(1rem, 3vw, 3rem); }
+}
+
 @media (max-width: 768px) {
   .signal-grid { grid-template-columns: 1fr 1fr; }
   .signal-grid div { border-bottom: 1px solid rgba(255,255,255,.2); border-right: 0; }
   .signal-grid div:nth-child(odd) { border-right: 1px solid rgba(255,255,255,.2); }
   .signal-grid div:nth-last-child(-n + 2) { border-bottom: 0; }
-  .research-map { grid-template-columns: 1fr; }
-  .research-map article, .research-map article:first-child { border-left: 0; border-top: 1px solid rgba(19,33,28,.19); padding: 1.5rem 0; }
-  .research-map article:first-child { border-top: 0; padding-top: 0; }
   .contact-panel { align-items: start; flex-direction: column; }
   .contact-actions { width: 100%; }
 }
