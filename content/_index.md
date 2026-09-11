@@ -14,7 +14,7 @@ sections:
 
         <nav class="hero-social-links" aria-label="Contact links">
           <a href="https://www.linkedin.com/in/nathanielasiak" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-          <a href="#contact" aria-label="Contact by email" title="Contact by email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+          <a href="mailto:asiakn@stanford.edu" aria-label="Email Nathaniel Asiak" title="asiakn@stanford.edu"><i class="fas fa-envelope" aria-hidden="true"></i></a>
         </nav>
       image:
         filename: icon.png
