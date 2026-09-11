@@ -8,11 +8,11 @@ sections:
   - block: hero
     id: top
     content:
-      title: "Intelligent systems for the real world."
+      title: "Nathaniel Asiak."
       text: |-
         <span class="hero-kicker">RESEARCHER · ENGINEER · WRITER</span>
 
-        I study how intelligent systems can perceive, reason, and act reliably when the environment is uncertain, the horizon is long, and the compute budget is real.
+        I’m an incoming MS student in Computational and Mathematical Engineering at Stanford. I work on machine learning systems for complex visual and multimodal data, with an emphasis on embodied AI and long-horizon tasks.
       cta:
         label: View research
         url: '#research'
@@ -75,13 +75,6 @@ sections:
   #       gradient_end: '#1976d2'
   #       gradient_start: '#004ba0'
   #       text_color_light: true
-  - block: about.biography
-    id: about
-    content:
-      username: admin
-    design:
-      spacing:
-        padding: ['6rem', '0', '5rem', '0']
   # - block: skills
   #   content:
   #     title: Skills
@@ -140,7 +133,7 @@ sections:
       order: desc
     design:
       view: card
-      columns: '2'
+      columns: '3'
       spacing:
         padding: ['6rem', '0', '4rem', '0']
 
