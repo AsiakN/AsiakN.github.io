@@ -22,7 +22,7 @@ sections:
         label: Enter NatX
         url: '/natx/'
       cta_note:
-        label: '<span class="hero-availability"><span></span> Incoming MS student, Stanford ICME</span>'
+        label: '<span class="hero-availability"><span></span> Student, Stanford ICME</span>'
     design:
       background:
         gradient_start: '#0a1714'
@@ -137,7 +137,7 @@ sections:
       view: compact
       columns: '1'
       spacing:
-        padding: ['6rem', '0', '6rem', '0']
+        padding: ['6rem', '0', '8rem', '0']
 
   - block: collection
     id: writing
@@ -153,7 +153,7 @@ sections:
       view: compact
       columns: '1'
       spacing:
-        padding: ['6rem', '0', '6rem', '0']
+        padding: ['6rem', '0', '8rem', '0']
 
   - block: markdown
     id: contact

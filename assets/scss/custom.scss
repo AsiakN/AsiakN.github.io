@@ -81,6 +81,22 @@ body {
   #writing { padding-left: clamp(1rem, 3vw, 3rem); }
 }
 
+#research .media.stream-item, #writing .media.stream-item {
+  background: #fff;
+  border: 1px solid rgba(19,33,28,.12);
+  border-radius: .9rem;
+  box-shadow: 0 4px 14px rgba(19,33,28,.035);
+  margin-bottom: 1rem;
+  padding: 1.1rem;
+  transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+#research .media.stream-item:hover, #writing .media.stream-item:hover {
+  border-color: rgba(216,92,59,.4);
+  box-shadow: 0 13px 28px rgba(19,33,28,.1);
+  transform: translateY(-3px);
+}
+#research .media.stream-item:last-child, #writing .media.stream-item:last-child { margin-bottom: 0; }
+
 @media (max-width: 768px) {
   .signal-grid { grid-template-columns: 1fr 1fr; }
   .signal-grid div { border-bottom: 1px solid rgba(255,255,255,.2); border-right: 0; }
