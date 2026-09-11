@@ -39,12 +39,12 @@ body {
 .home-section:first-of-type::before { background-image: linear-gradient(90deg, transparent 49%, rgba(134,229,170,.48) 50%, transparent 51%), linear-gradient(transparent 49%, rgba(134,229,170,.48) 50%, transparent 51%); background-size: 4rem 4rem; inset: 0; }
 .home-section:first-of-type::after { border: 1px solid var(--site-teal); border-radius: 50%; bottom: -28rem; height: 42rem; right: 7%; width: 42rem; }
 
-.home-section:first-of-type .hero-title { font-size: clamp(3.25rem, 7vw, 6.8rem); font-weight: 750; letter-spacing: -.07em; line-height: .91; max-width: 12ch; }
-.hero-lead, .home-section:first-of-type .hero-lead { font-size: clamp(1.1rem, 1.8vw, 1.4rem); line-height: 1.6; max-width: 43rem; }
+.home-section:first-of-type .hero-title { font-size: clamp(2.8rem, 5.5vw, 5.25rem); font-weight: 750; letter-spacing: -.07em; line-height: .91; max-width: 12ch; }
+.hero-lead, .home-section:first-of-type .hero-lead { font-size: clamp(1rem, 1.5vw, 1.2rem); line-height: 1.55; max-width: 40rem; }
 .hero-social-links { display: flex; gap: .6rem; margin: 1.5rem 0 .2rem; }
 .hero-social-links a { align-items: center; border: 1px solid rgba(255,255,255,.36); border-radius: 50%; color: #fff; display: inline-flex; height: 2.5rem; justify-content: center; text-decoration: none; transition: background .2s ease, border-color .2s ease, transform .2s ease; width: 2.5rem; }
 .hero-social-links a:hover { background: var(--site-teal); border-color: var(--site-teal); color: #0a1714; transform: translateY(-3px); }
-.hero-media { filter: drop-shadow(0 1.5rem 2.4rem rgba(0,0,0,.22)); }
+.hero-media { filter: drop-shadow(0 1.5rem 2.4rem rgba(0,0,0,.22)); max-width: 19rem; }
 .hero-media img { border: 1px solid rgba(134,229,170,.36); border-radius: 1.5rem; object-fit: cover; }
 .hero-availability { align-items: center; display: inline-flex; font-size: .85rem; gap: .55rem; margin-top: 1rem; }
 .hero-availability span { background: var(--site-teal); border-radius: 50%; box-shadow: 0 0 0 5px rgba(48, 213, 179, .14); height: .55rem; width: .55rem; }
@@ -101,6 +101,7 @@ a[href="/natx/"]::after { content: '▍'; display: inline-block; font-size: .85e
 #research .media.stream-item:last-child, #writing .media.stream-item:last-child { margin-bottom: 0; }
 
 @media (max-width: 768px) {
+  .home-section:first-of-type .hero-media { max-width: 12rem; }
   .signal-grid { grid-template-columns: 1fr 1fr; }
   .signal-grid div { border-bottom: 1px solid rgba(255,255,255,.2); border-right: 0; }
   .signal-grid div:nth-child(odd) { border-right: 1px solid rgba(255,255,255,.2); }

@@ -32,7 +32,7 @@ sections:
         gradient_end: '#10251f'
         text_color_light: true
       spacing:
-        padding: ['9rem', '0', '7rem', '0']
+        padding: ['4.5rem', '0', '2.75rem', '0']
   - block: markdown
     content:
       title: ''
